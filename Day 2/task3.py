@@ -8,7 +8,8 @@ from abc import ABCMeta
 #For example, if N=150, then 150 mins have passed since midnight - i.e now is 2:30am
 #So, the program should print 2:30
 
-x=int(input("enter any number "))
+x=int(input("enter any number"))
 hour=x//60
-min=x%600
-print(hour,min)
+min=x%60
+print(f"{hour}:{min}")
+
